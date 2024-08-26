@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1 class="main">Welcome <br> My ToDo List</h1>
+        <div class="stats-container">
+            <div class="details">
+                <h1>ToDo App</h1>
+                <p>Keep it up ....</p>
+            </div>
+            <div class="stats-number">
+                <img src="light-bulb.png" alt="Good_Job">
+            </div>
+        </div>
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="Add a new task" required>
+            <button type="submit">Add</button>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
